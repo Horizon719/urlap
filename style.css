@@ -41,3 +41,18 @@ footer{
         background-color: rgb(32, 189, 18);
     }
 }
+
+@media screen and (max-width:500px) {
+    main{
+        grid-template-columns: 1fr;
+        grid-template-areas: 
+                "h"
+                "a"
+                "n"
+                "f";
+    }
+
+    .box{
+        background-color: rgb(18, 103, 189);
+    }
+}
